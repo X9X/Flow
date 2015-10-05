@@ -1,0 +1,2380 @@
+
+
+Started GET "/welcome" for 192.168.10.1 at 2015-10-05 08:11:02 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/welcome"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (18.2ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (11.7ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (56.1ms)
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 08:11:10 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1158ms (Views: 1157.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 192.168.10.1 at 2015-10-05 08:11:11 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 08:11:11 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:25:34 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 348ms (Views: 343.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:25:34 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:25:34 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-0df2cff3a7c5b805f48987be3cd5e038bdb3a800c79109e4a7b43797f534e0d3.css?body=1" for 192.168.10.1 at 2015-10-05 09:25:34 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-a49cdfacaa7858ba3104d0f5f0b4001c435e0f13112b1969c769755337d3d57e.css?body=1" for 192.168.10.1 at 2015-10-05 09:25:34 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:25:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:25:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.10.1 at 2015-10-05 09:25:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:26:38 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 276ms (Views: 275.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-0df2cff3a7c5b805f48987be3cd5e038bdb3a800c79109e4a7b43797f534e0d3.css?body=1" for 192.168.10.1 at 2015-10-05 09:26:39 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1d1ab52ee7b6ec052f1f510b4f28239080033386d8356167f663609239b87f27.css?body=1" for 192.168.10.1 at 2015-10-05 09:26:39 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:26:39 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:26:39 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:26:39 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:26:39 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.10.1 at 2015-10-05 09:26:39 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:30:00 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 533ms (Views: 531.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:30:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e4505abbb7ed141281b62f00ef70428475b097668829dfbe345518f9c28b5644.css?body=1" for 192.168.10.1 at 2015-10-05 09:30:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-0df2cff3a7c5b805f48987be3cd5e038bdb3a800c79109e4a7b43797f534e0d3.css?body=1" for 192.168.10.1 at 2015-10-05 09:30:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:30:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:30:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:30:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for 192.168.10.1 at 2015-10-05 09:30:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:36:47 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.1ms)
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (couldn't find file 'vendor/assets/javascripts/jquery.anystretch.min' with type 'application/javascript'):
+    3: <head>
+    4:   <title>Blog</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+    9: <body>
+  app/assets/javascripts/application.js:17
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__4301210540944318528_70183100121980'
+
+
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.7ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (6.1ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (30.4ms)
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:38:20 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 339ms (Views: 338.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9b33ab71051d363ac42e0f87b8b1c8ef9ca139dc374dd4e64334b4821326e3a2.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:21 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-0df2cff3a7c5b805f48987be3cd5e038bdb3a800c79109e4a7b43797f534e0d3.css?body=1" for 192.168.10.1 at 2015-10-05 09:38:21 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e4505abbb7ed141281b62f00ef70428475b097668829dfbe345518f9c28b5644.css?body=1" for 192.168.10.1 at 2015-10-05 09:38:21 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:21 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:21 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:21 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:21 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:38:41 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 371ms (Views: 370.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e4505abbb7ed141281b62f00ef70428475b097668829dfbe345518f9c28b5644.css?body=1" for 192.168.10.1 at 2015-10-05 09:38:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-0df2cff3a7c5b805f48987be3cd5e038bdb3a800c79109e4a7b43797f534e0d3.css?body=1" for 192.168.10.1 at 2015-10-05 09:38:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/images/dave2.jpg" for 192.168.10.1 at 2015-10-05 09:38:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/dave2.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.8ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.3ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (49.4ms)
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:38:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 267ms (Views: 266.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e4505abbb7ed141281b62f00ef70428475b097668829dfbe345518f9c28b5644.css?body=1" for 192.168.10.1 at 2015-10-05 09:38:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-0df2cff3a7c5b805f48987be3cd5e038bdb3a800c79109e4a7b43797f534e0d3.css?body=1" for 192.168.10.1 at 2015-10-05 09:38:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:38:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/images/dave2.jpg" for 192.168.10.1 at 2015-10-05 09:38:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+ActionController::RoutingError (No route matches [GET] "/images/dave2.jpg"):
+  actionpack (4.2.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:31:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.4) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.4) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.4) lib/rails/engine.rb:518:in `call'
+  railties (4.2.4) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.1ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (3.6ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (52.7ms)
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:40:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (60.0ms)
+Completed 200 OK in 432ms (Views: 431.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e4505abbb7ed141281b62f00ef70428475b097668829dfbe345518f9c28b5644.css?body=1" for 192.168.10.1 at 2015-10-05 09:40:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-0df2cff3a7c5b805f48987be3cd5e038bdb3a800c79109e4a7b43797f534e0d3.css?body=1" for 192.168.10.1 at 2015-10-05 09:40:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:40:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:40:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:40:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:40:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:40:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:40:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:40:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:42:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 347ms (Views: 346.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-3cf6a88c404efcfa8d5c873215b582d28690563c2049fe3788678e4a85b79096.css?body=1" for 192.168.10.1 at 2015-10-05 09:42:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e4505abbb7ed141281b62f00ef70428475b097668829dfbe345518f9c28b5644.css?body=1" for 192.168.10.1 at 2015-10-05 09:42:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:14 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:14 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:42:14 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:42:34 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 227ms (Views: 226.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e4505abbb7ed141281b62f00ef70428475b097668829dfbe345518f9c28b5644.css?body=1" for 192.168.10.1 at 2015-10-05 09:42:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-3cf6a88c404efcfa8d5c873215b582d28690563c2049fe3788678e4a85b79096.css?body=1" for 192.168.10.1 at 2015-10-05 09:42:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:42:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:42:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:44:28 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 343ms (Views: 342.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:44:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:44:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:44:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e4505abbb7ed141281b62f00ef70428475b097668829dfbe345518f9c28b5644.css?body=1" for 192.168.10.1 at 2015-10-05 09:44:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e43a313891cf076911a1b54ceca2d90511f8fde738441c1c250b63e204953b4d.css?body=1" for 192.168.10.1 at 2015-10-05 09:44:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:44:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:44:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:44:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:44:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:45:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 285ms (Views: 284.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-e43a313891cf076911a1b54ceca2d90511f8fde738441c1c250b63e204953b4d.css?body=1" for 192.168.10.1 at 2015-10-05 09:45:53 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:45:53 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:45:53 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:45:53 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:45:53 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-538e94ecce1d7faf8e40eeec117537912c02d49d9ff97af861586f99e88170df.css?body=1" for 192.168.10.1 at 2015-10-05 09:45:53 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:45:53 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:45:53 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:45:53 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:47:43 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 283ms (Views: 283.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-e43a313891cf076911a1b54ceca2d90511f8fde738441c1c250b63e204953b4d.css?body=1" for 192.168.10.1 at 2015-10-05 09:47:44 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-e71cb3c5b964e6bcf44a39b34a6c5595b84b61cb9a64258c407fa96a8117a659.css?body=1" for 192.168.10.1 at 2015-10-05 09:47:44 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:47:44 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:47:44 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:47:44 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:47:44 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:47:44 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:47:44 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:47:44 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:48:53 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 285ms (Views: 284.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-6a55174c6c9cc4918817bef77f4d5bb6f7068f657353c9106f10e608a8a07a9c.css?body=1" for 192.168.10.1 at 2015-10-05 09:48:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:48:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:48:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:48:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:48:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e43a313891cf076911a1b54ceca2d90511f8fde738441c1c250b63e204953b4d.css?body=1" for 192.168.10.1 at 2015-10-05 09:48:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:48:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:48:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:48:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:53:25 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 284ms (Views: 283.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ec82159ef9ae55981a6aeb0f001e490c3c5392862d13faa3a0ed69a51f1bc529.css?body=1" for 192.168.10.1 at 2015-10-05 09:53:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e43a313891cf076911a1b54ceca2d90511f8fde738441c1c250b63e204953b4d.css?body=1" for 192.168.10.1 at 2015-10-05 09:53:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:53:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:53:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:53:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:53:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:53:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:53:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:53:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:57:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 316ms (Views: 315.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ce74123ab76864bed1b58f7af4812f87b7432115cfe03620ea1e7dbf5130dd5e.css?body=1" for 192.168.10.1 at 2015-10-05 09:57:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-e43a313891cf076911a1b54ceca2d90511f8fde738441c1c250b63e204953b4d.css?body=1" for 192.168.10.1 at 2015-10-05 09:57:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:57:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:57:19 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:57:19 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:57:19 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:57:19 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:57:19 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:57:19 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:59:00 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 425ms (Views: 424.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-d8958f52821a7bd1d0abaeb5b42c437fb1e2aa9e54b35827707a0532b093e54f.css?body=1" for 192.168.10.1 at 2015-10-05 09:59:00 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ce74123ab76864bed1b58f7af4812f87b7432115cfe03620ea1e7dbf5130dd5e.css?body=1" for 192.168.10.1 at 2015-10-05 09:59:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:59:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 09:59:50 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 244ms (Views: 243.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ce74123ab76864bed1b58f7af4812f87b7432115cfe03620ea1e7dbf5130dd5e.css?body=1" for 192.168.10.1 at 2015-10-05 09:59:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-d8958f52821a7bd1d0abaeb5b42c437fb1e2aa9e54b35827707a0532b093e54f.css?body=1" for 192.168.10.1 at 2015-10-05 09:59:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 09:59:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 09:59:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 10:01:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 205ms (Views: 204.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-d8958f52821a7bd1d0abaeb5b42c437fb1e2aa9e54b35827707a0532b093e54f.css?body=1" for 192.168.10.1 at 2015-10-05 10:01:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ce74123ab76864bed1b58f7af4812f87b7432115cfe03620ea1e7dbf5130dd5e.css?body=1" for 192.168.10.1 at 2015-10-05 10:01:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 10:01:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 10:01:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 10:01:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 10:01:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 10:01:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 10:01:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 10:01:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 10:03:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 276ms (Views: 275.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 10:03:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-d8958f52821a7bd1d0abaeb5b42c437fb1e2aa9e54b35827707a0532b093e54f.css?body=1" for 192.168.10.1 at 2015-10-05 10:03:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-3a3921b9ed9cd30ea1aedfcc393a90442ecb53d68dfb7b5000550b9c54e922ce.css?body=1" for 192.168.10.1 at 2015-10-05 10:03:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 10:03:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 10:03:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 10:03:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 10:03:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 10:03:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 10:03:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 10:05:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 334ms (Views: 333.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 10:05:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-7c8c0487b122fdad39251c0a92f2a216d175b5be20b67720595ab3689da2c22e.css?body=1" for 192.168.10.1 at 2015-10-05 10:05:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ce74123ab76864bed1b58f7af4812f87b7432115cfe03620ea1e7dbf5130dd5e.css?body=1" for 192.168.10.1 at 2015-10-05 10:05:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 10:05:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 10:05:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 10:05:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 10:05:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 10:05:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 10:05:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 10:07:38 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 217ms (Views: 216.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 10:08:15 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 337ms (Views: 336.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:16 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:16 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:16 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-ce74123ab76864bed1b58f7af4812f87b7432115cfe03620ea1e7dbf5130dd5e.css?body=1" for 192.168.10.1 at 2015-10-05 10:08:16 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-28c8420d4ab3be066653f1ac0e7c0e432e9c9128ce4f5cd0e7dc1743c0c0d6ba.css?body=1" for 192.168.10.1 at 2015-10-05 10:08:16 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:16 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:16 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:16 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 10:08:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 10:08:25 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 323ms (Views: 322.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ce74123ab76864bed1b58f7af4812f87b7432115cfe03620ea1e7dbf5130dd5e.css?body=1" for 192.168.10.1 at 2015-10-05 10:08:25 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-d8958f52821a7bd1d0abaeb5b42c437fb1e2aa9e54b35827707a0532b093e54f.css?body=1" for 192.168.10.1 at 2015-10-05 10:08:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 10:08:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 10:08:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 244ms (Views: 243.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-ce74123ab76864bed1b58f7af4812f87b7432115cfe03620ea1e7dbf5130dd5e.css?body=1" for 192.168.10.1 at 2015-10-05 10:08:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-28c8420d4ab3be066653f1ac0e7c0e432e9c9128ce4f5cd0e7dc1743c0c0d6ba.css?body=1" for 192.168.10.1 at 2015-10-05 10:08:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 10:08:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 10:08:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:07:39 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 322ms (Views: 321.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-3e352195d6603d7d4b3ac4573223c801ebf97076a0c45e6af83db8aa95bd6dcf.css?body=1" for 192.168.10.1 at 2015-10-05 12:07:40 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:08:12 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 274ms (Views: 273.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:08:12 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:08:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:08:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:08:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-28c8420d4ab3be066653f1ac0e7c0e432e9c9128ce4f5cd0e7dc1743c0c0d6ba.css?body=1" for 192.168.10.1 at 2015-10-05 12:08:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:08:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:08:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:08:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 12:08:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:11:20 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 335ms (Views: 334.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-c92d87abfdb0493c0624458db79f1201afea0fdabae3357125d230865caef673.css?body=1" for 192.168.10.1 at 2015-10-05 12:11:20 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:11:20 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:20 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:20 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:20 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:20 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:20 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:21 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 12:11:21 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:11:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 348ms (Views: 347.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:11:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-60c8435110d5bb1f853da6c6de96245894f1ae26f3060050774f78f71c2c55ca.css?body=1" for 192.168.10.1 at 2015-10-05 12:11:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:11:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 12:11:36 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:12:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 343ms (Views: 342.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:12:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-1e849ce4670f803f70d56066109e925ab94e91cec1c89e0fb45676c40b38fde2.css?body=1" for 192.168.10.1 at 2015-10-05 12:12:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 12:12:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:12:41 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 332ms (Views: 331.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-902a4a58855cf6d8d2593409860a72e2c430f698a7690bccaf15d161167879e1.css?body=1" for 192.168.10.1 at 2015-10-05 12:12:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:12:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 12:12:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:12:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 367ms (Views: 366.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:12:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-8c56feccb6bd427568ef8f44d4d383736d50c852deafce40986b3b53df74e481.css?body=1" for 192.168.10.1 at 2015-10-05 12:12:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:12:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 12:12:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:13:23 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 216ms (Views: 215.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:13:23 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:13:24 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:13:24 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:13:24 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-8c56feccb6bd427568ef8f44d4d383736d50c852deafce40986b3b53df74e481.css?body=1" for 192.168.10.1 at 2015-10-05 12:13:24 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:13:24 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:13:24 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:13:24 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 12:13:24 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:16:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 516ms (Views: 514.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:16:30 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:16:30 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:16:30 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-8c56feccb6bd427568ef8f44d4d383736d50c852deafce40986b3b53df74e481.css?body=1" for 192.168.10.1 at 2015-10-05 12:16:30 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:16:30 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:16:30 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:16:30 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:16:30 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 12:16:30 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:18:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 217ms (Views: 216.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:18:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:18:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-8c56feccb6bd427568ef8f44d4d383736d50c852deafce40986b3b53df74e481.css?body=1" for 192.168.10.1 at 2015-10-05 12:18:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:18:33 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:18:33 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:18:33 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:18:33 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:18:33 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/dave2-9993240244ec382341b63a8b36cb3a21c46c066c8b17b932a819f382a02778b2.jpg" for 192.168.10.1 at 2015-10-05 12:18:33 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:19:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (40.4ms)
+Completed 200 OK in 374ms (Views: 374.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-8c56feccb6bd427568ef8f44d4d383736d50c852deafce40986b3b53df74e481.css?body=1" for 192.168.10.1 at 2015-10-05 12:19:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:19:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:19:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:19:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:19:54 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:19:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:19:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:19:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:19:55 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:22:28 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 269ms (Views: 268.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-8c56feccb6bd427568ef8f44d4d383736d50c852deafce40986b3b53df74e481.css?body=1" for 192.168.10.1 at 2015-10-05 12:22:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-9d27d5badd82e67ccbc466f7f2413e1d55ae031a5644b8f6c97a35f4bd5a6a3f.css?body=1" for 192.168.10.1 at 2015-10-05 12:22:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:22:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:22:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:22:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:22:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:22:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:22:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:22:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:24:26 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 335ms (Views: 334.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-fa6ef04625bbd6cb8d0178cf0dc18bb6bfc9beb62c682adad76eb27d25c64320.css?body=1" for 192.168.10.1 at 2015-10-05 12:24:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:24:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1d1ab52ee7b6ec052f1f510b4f28239080033386d8356167f663609239b87f27.css?body=1" for 192.168.10.1 at 2015-10-05 12:24:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:24:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:24:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:24:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:24:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:24:27 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:24:28 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:25:02 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 219ms (Views: 217.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:25:02 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-fa6ef04625bbd6cb8d0178cf0dc18bb6bfc9beb62c682adad76eb27d25c64320.css?body=1" for 192.168.10.1 at 2015-10-05 12:25:02 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1d1ab52ee7b6ec052f1f510b4f28239080033386d8356167f663609239b87f27.css?body=1" for 192.168.10.1 at 2015-10-05 12:25:02 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:25:02 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:25:02 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:25:02 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:25:03 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:25:03 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:25:03 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:26:08 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 222ms (Views: 220.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1d1ab52ee7b6ec052f1f510b4f28239080033386d8356167f663609239b87f27.css?body=1" for 192.168.10.1 at 2015-10-05 12:26:08 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:26:08 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:26:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:26:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:26:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-fa6ef04625bbd6cb8d0178cf0dc18bb6bfc9beb62c682adad76eb27d25c64320.css?body=1" for 192.168.10.1 at 2015-10-05 12:26:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:26:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:26:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:26:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:27:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 500 Internal Server Error in 102ms (ActiveRecord: 0.0ms)
+
+ActionView::Template::Error (Invalid CSS after "	border-radius": expected "{", was ";5px;"):
+    2: <html>
+    3: <head>
+    4:   <title>Flow</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/welcome.scss:42
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__4301210540944318528_70183101475500'
+
+
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.5ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /home/vagrant/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/actionpack-4.2.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.6ms)
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:28:12 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 335ms (Views: 334.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1d1ab52ee7b6ec052f1f510b4f28239080033386d8356167f663609239b87f27.css?body=1" for 192.168.10.1 at 2015-10-05 12:28:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:28:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:28:13 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:28:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 213ms (Views: 212.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:43 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:43 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1d1ab52ee7b6ec052f1f510b4f28239080033386d8356167f663609239b87f27.css?body=1" for 192.168.10.1 at 2015-10-05 12:28:43 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:43 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:28:43 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:43 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:43 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:28:43 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:28:43 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:31:57 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 336ms (Views: 335.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-38b7599e92fb366bc6a3acd3de6c5b2888daf2d52b830db331a64e085c554c27.css?body=1" for 192.168.10.1 at 2015-10-05 12:31:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1d1ab52ee7b6ec052f1f510b4f28239080033386d8356167f663609239b87f27.css?body=1" for 192.168.10.1 at 2015-10-05 12:31:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:31:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:31:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:31:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:31:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:31:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:31:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:31:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:33:00 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 339ms (Views: 338.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-1d1ab52ee7b6ec052f1f510b4f28239080033386d8356167f663609239b87f27.css?body=1" for 192.168.10.1 at 2015-10-05 12:33:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-a1c1973e9288ca103fde87b1692ef1cb21b48cb0f6549feb2d9390a105cc7f97.css?body=1" for 192.168.10.1 at 2015-10-05 12:33:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:33:01 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:33:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 249ms (Views: 248.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1d1ab52ee7b6ec052f1f510b4f28239080033386d8356167f663609239b87f27.css?body=1" for 192.168.10.1 at 2015-10-05 12:33:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:33:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:33:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:33:09 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:36:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 236ms (Views: 235.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:36:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-1d1ab52ee7b6ec052f1f510b4f28239080033386d8356167f663609239b87f27.css?body=1" for 192.168.10.1 at 2015-10-05 12:36:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:36:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:36:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:36:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:36:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:36:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:36:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:36:18 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:37:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 286ms (Views: 285.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-23c03ffcc7193ac8602d0d3b0b4752c108321eb299f51057bb6c5eb7d117a8c8.css?body=1" for 192.168.10.1 at 2015-10-05 12:37:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:37:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:37:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:37:58 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:37:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:37:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:37:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:37:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:37:59 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:38:39 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 282ms (Views: 281.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:38:40 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:38:40 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:38:40 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:38:40 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:38:40 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-4bc2f804c0fbc42f032896f55be7d24ace077253f7c22e953721e1aaf1c607a3.css?body=1" for 192.168.10.1 at 2015-10-05 12:38:40 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:38:40 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:38:40 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:38:40 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:39:28 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 305ms (Views: 304.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:39:28 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:39:28 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-7b292a06dafd087bf57ed3584ba9cc2aca0569c57da20854716e61b90e3d0694.css?body=1" for 192.168.10.1 at 2015-10-05 12:39:28 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:39:28 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:39:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:39:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:39:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:39:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:39:29 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:43:16 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 290ms (Views: 290.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:43:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-c78acd08f8bad150bce600ffabf54efbc5b383d978abd855f10f1a68f0ef92f1.css?body=1" for 192.168.10.1 at 2015-10-05 12:43:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:43:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:43:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:43:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:43:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:43:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:43:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:43:17 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:44:31 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 277ms (Views: 276.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:44:31 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-01fbb0851fd1c559b22323455d2bd7b258edeeec6c28b25065376283c949e268.css?body=1" for 192.168.10.1 at 2015-10-05 12:44:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:44:32 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:44:51 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 275ms (Views: 274.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:44:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-b39f7207f4d1dd5f1f4ac64ac237f24093d22520972cb36f319bd062c70b8559.css?body=1" for 192.168.10.1 at 2015-10-05 12:44:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:44:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:44:52 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:47:05 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 300ms (Views: 299.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-e4e7b2b4cef719e14bf89f6a8f07db3c130598fa219d0110227d6b866ddc5215.css?body=1" for 192.168.10.1 at 2015-10-05 12:47:06 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:47:06 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:06 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:06 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:06 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:06 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:06 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:07 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:47:07 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 12:47:41 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 290ms (Views: 289.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.self-f1e5d4985dafcd0906f02ca8dc73ef4b735f05d20bb1f5826fc9442ceaf6b440.css?body=1" for 192.168.10.1 at 2015-10-05 12:47:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.anystretch.min.self-0316f0c78a4cee85193583472bed190a949676dcdfeef7a69334c4f25463c529.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/application.self-f8806224e027f3e3f0138ea9ce99319e298dfdb323304d1f1be6eae8e8c74724.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/welcome.self-50ae343887e0565a4d9b32c95de771888f6f0a848ebb29def921121b518a8085.css?body=1" for 192.168.10.1 at 2015-10-05 12:47:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 192.168.10.1 at 2015-10-05 12:47:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/assets/bottom5-585a3adeb764f6ea7041990cb4f5d17715b69dd732c6be892cf56f153c608fb1.jpg" for 192.168.10.1 at 2015-10-05 12:47:42 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 13:11:21 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 612ms (Views: 611.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 13:11:33 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 222ms (Views: 221.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 13:11:34 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 311ms (Views: 310.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 13:11:34 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 304ms (Views: 303.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.10.1 at 2015-10-05 13:11:35 +0000
+Cannot render console from 192.168.10.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendered welcome/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 226ms (Views: 225.9ms | ActiveRecord: 0.0ms)
