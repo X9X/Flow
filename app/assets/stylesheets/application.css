@@ -10,8 +10,8 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
+ *= require_tree .
  */
 body {
   font-family: sans-serif;
@@ -56,7 +56,7 @@ a:hover {
 }
 .footer{
 	margin:0px auto;
-	position: absolute;
+	position: relative;
 	top: 90%;
 	text-align: center;
 	width: 100%;
@@ -67,4 +67,46 @@ a:hover {
 .botton_link{
 	color:#fff;
 	font-size: 15px;
+}
+
+.navbar {
+  background: transparent;
+  position: relative;
+  z-index: 1000;
+}
+.navbar a {
+  color: #fff;
+}
+.navbar a:hover {
+  color: #c0865e;
+}
+.navbar-brand {
+  float: left;
+  padding-left: 0;
+  line-height: 80px;
+  font-size: 40px;
+}
+.nav.left {
+  float: left;
+  margin-left: 40px;
+  font-size: 15px;
+}
+.nav.right {
+  float: right;
+}
+.nav  li {
+  float: left;
+}
+.nav  li  a {
+  display: block;
+  font-size: 1.1em;
+  line-height: 40px;
+  padding: 5px 10px;
+  margin: 15px 10px;
+}
+.nav  li  a:hover {
+  border:1px solid #000;
+  border-radius:5px;
+  color: #000;
+  background: #fff;
 }

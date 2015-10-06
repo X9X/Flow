@@ -1,7 +1,13 @@
-
+<div class="home-banner" data-stretch="<%= image_url 'bottom5.jpg'%>">
+	<%= render 'layouts/navibar'  %>
 	<div class="text_box">
 		<p class="text">
 			If you smash into something good,&nbsp;you should hold on until it is time to let go...
 		</p>
 	</div>
-
+	<%= render 'layouts/footer'  %>
+</div>
+	
+<script>
+  $('.home-banner').anystretch();
+</script>
