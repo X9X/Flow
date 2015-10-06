@@ -55,12 +55,11 @@ a:hover {
   color: #845534;
 }
 .footer{
-	margin:0px auto;
-	position: relative;
-	top: 90%;
-	text-align: center;
-	width: 100%;
-}
+  margin:0px auto;
+  top: 90%;
+  text-align: center;
+  width: 100%;
+  }
 .footer_content{
 	display: inline-block;
 }
